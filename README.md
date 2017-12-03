@@ -1,5 +1,7 @@
 # Fortunate-HTML-Insertion
 
+To use Fortunate HTML Insertion (FHI), simply run index.html
+
 In short, this is a tool that does the following:
 
 -The user clicks on a hyperlink
