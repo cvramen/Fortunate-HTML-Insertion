@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>
+Fortunate HTML Insertion
+</title>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<script src="jquery.js" type="text/javascript"></script><!-- Requires jQuery to function. This example uses 1.8.3 -->
+<script src="jquery.ba-hashchange.js" type="text/javascript"></script><!-- Requires this jQuery plugin to function. -->
+<script id="mainscript" src="script.js" type="text/javascript"></script> 
+<!-- 
+If you wish to use Fortunate HTML Insertion (in its current form or any modifications you wish) you don't have to ask me permission, but please let me know about it. I like to know when and where my creations are being used.
+-Nick Kirkpatrick (nkirkpatrick@cvramen.com)
+  -->
+<link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h1>Fortunate HTML Insertion</h1>
+<h2>Tool for removing HTML from a specific place on a page, and putting new HTML in its place</h2>
+
+    <!-- "gallery" -->
+    <!-- the gallery_outer1 and gallery_inner are used to handle the css changes that make the page content appear to move when it is loaded -->
+    <div id="gallery_outer1">
+    <div id="gallery_inner">
+        <div id="mainrow">
+        <div id="firstcell">
+        <!-- Main Content Goes Here -->
+        </div>
+        </div>
+    </div>
+    </div>
+    <!-- "gallery" -->
+
+
+<p>There are hyperlinks below. Clicking on them places a hash value into the URL. The code in script.js will alter the contents of the page based on the URL.</p>
+<p style="font-size:22pt;"><a href="#1">1</a> / <a href="#2">2</a> / <a href="#3">3</a> / <a href="#4">4</a> / <a href="#5">5</a></p>
+
+</body>
+</html>
